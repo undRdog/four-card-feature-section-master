@@ -79,3 +79,23 @@ p {
 .card-calculator {
   border-top: 5px solid hsl(212, 86%, 64%);
 }
+
+@media screen and (max-width: 600px) {
+
+h1, h2 {
+  font-size: 24px;
+}
+
+.column { 
+  flex: 100%;
+}
+
+.title {
+  margin: 15% 8% 10% 8%;
+}
+.container-card {
+  margin: 0 5%;
+}
+
+
+}
